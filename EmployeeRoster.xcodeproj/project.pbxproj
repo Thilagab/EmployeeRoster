@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		09CEE9CC2B7AE33E00D03368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEE9CB2B7AE33E00D03368 /* AppDelegate.swift */; };
 		09CEE9CE2B7AE33E00D03368 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEE9CD2B7AE33E00D03368 /* SceneDelegate.swift */; };
-		09CEE9D02B7AE33E00D03368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEE9CF2B7AE33E00D03368 /* ViewController.swift */; };
 		09CEE9D32B7AE33E00D03368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CEE9D12B7AE33E00D03368 /* Main.storyboard */; };
 		09CEE9D52B7AE33F00D03368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CEE9D42B7AE33F00D03368 /* Assets.xcassets */; };
 		09CEE9D82B7AE33F00D03368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CEE9D62B7AE33F00D03368 /* LaunchScreen.storyboard */; };
 		09CEE9E32B7AE33F00D03368 /* EmployeeRosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEE9E22B7AE33F00D03368 /* EmployeeRosterTests.swift */; };
 		09CEE9ED2B7AE33F00D03368 /* EmployeeRosterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEE9EC2B7AE33F00D03368 /* EmployeeRosterUITests.swift */; };
 		09CEE9EF2B7AE33F00D03368 /* EmployeeRosterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEE9EE2B7AE33F00D03368 /* EmployeeRosterUITestsLaunchTests.swift */; };
+		09CEEA002B7AEC3600D03368 /* EmployeeDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEE9FF2B7AEC3600D03368 /* EmployeeDetailTableViewController.swift */; };
+		09CEEA022B7AF26F00D03368 /* EmployeeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEEA012B7AF26F00D03368 /* EmployeeListTableViewController.swift */; };
+		09D3A7B62B8578430016C4E9 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3A7B52B8578430016C4E9 /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		09CEE9C82B7AE33E00D03368 /* EmployeeRoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeeRoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CEE9CB2B7AE33E00D03368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09CEE9CD2B7AE33E00D03368 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09CEE9CF2B7AE33E00D03368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09CEE9D22B7AE33E00D03368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09CEE9D42B7AE33F00D03368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09CEE9D72B7AE33F00D03368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		09CEE9E82B7AE33F00D03368 /* EmployeeRosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeeRosterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CEE9EC2B7AE33F00D03368 /* EmployeeRosterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRosterUITests.swift; sourceTree = "<group>"; };
 		09CEE9EE2B7AE33F00D03368 /* EmployeeRosterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRosterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		09CEE9FF2B7AEC3600D03368 /* EmployeeDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailTableViewController.swift; sourceTree = "<group>"; };
+		09CEEA012B7AF26F00D03368 /* EmployeeListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListTableViewController.swift; sourceTree = "<group>"; };
+		09D3A7B52B8578430016C4E9 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				09CEE9CB2B7AE33E00D03368 /* AppDelegate.swift */,
 				09CEE9CD2B7AE33E00D03368 /* SceneDelegate.swift */,
-				09CEE9CF2B7AE33E00D03368 /* ViewController.swift */,
+				09D3A7B52B8578430016C4E9 /* Employee.swift */,
+				09CEE9FF2B7AEC3600D03368 /* EmployeeDetailTableViewController.swift */,
+				09CEEA012B7AF26F00D03368 /* EmployeeListTableViewController.swift */,
 				09CEE9D12B7AE33E00D03368 /* Main.storyboard */,
 				09CEE9D42B7AE33F00D03368 /* Assets.xcassets */,
 				09CEE9D62B7AE33F00D03368 /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09CEE9D02B7AE33E00D03368 /* ViewController.swift in Sources */,
+				09CEEA002B7AEC3600D03368 /* EmployeeDetailTableViewController.swift in Sources */,
 				09CEE9CC2B7AE33E00D03368 /* AppDelegate.swift in Sources */,
 				09CEE9CE2B7AE33E00D03368 /* SceneDelegate.swift in Sources */,
+				09D3A7B62B8578430016C4E9 /* Employee.swift in Sources */,
+				09CEEA022B7AF26F00D03368 /* EmployeeListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
